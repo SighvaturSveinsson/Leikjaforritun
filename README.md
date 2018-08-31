@@ -12,6 +12,8 @@ position ogsfrv. Notaðu kóða, stærðfræði (vigrar og stefnur) og aðrar le
 acceleration = force / mass
 change in position = velocity * dt
 change in velocity = acceleration * dt
+x_position += x_velocity
+y_position += y_velocity
 
 #### 3. Útskýrðu hvernig árekstur (e. collision detection) gæti verið útfærður í leik með
 sýnidæmi (kóði, skýringamynd, stærðfræði osfrv.). (
