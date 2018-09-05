@@ -2,7 +2,7 @@
 
 ### Verkefni 1
 
-#### 1. Útskýrðu vel e. GameLoop í leikjagerð. Game loop er aðferð til að skrifa leiki. Allur leikurinn keyrir á einni lykkju sem sér um að uppfæra og rendera content.
+#### 1. Game loop er það sem er alltaf að keyra. Allur leikurinn keyrir á einni lykkju sem sér um alla útreikninga eins og position update, collision detection, virkni eða viðbrögð þegar hlutur gerir eitthvað ákveðið og uppfærir allt og renderar content.
 
 #### 2. Útskýrðuð hvernig hægt er að fá hreyfingu (e. movement) á hlut með notkun e. velocity,
 position ogsfrv. Notaðu kóða, stærðfræði (vigrar og stefnur) og aðrar leiðir til
