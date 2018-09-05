@@ -18,6 +18,8 @@ y_position += y_velocity
 #### 3. Útskýrðu hvernig árekstur (e. collision detection) gæti verið útfærður í leik með
 sýnidæmi (kóði, skýringamynd, stærðfræði osfrv.). (
 
+ef hluti af playerinum reynir að komast útaf skjánum er hraðinn lækkaður í 0 svo hann getur ekki fært sig lengra í þá átt þar sem er veggur
+
 if y_position > 460 or y_position < 0:  # top - bottom check
         y_velocity = 0
     if x_position > 620 or x_position < 0:  # left - right check
