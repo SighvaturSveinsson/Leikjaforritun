@@ -18,6 +18,9 @@ y_position += y_velocity
 #### 3. Útskýrðu hvernig árekstur (e. collision detection) gæti verið útfærður í leik með
 sýnidæmi (kóði, skýringamynd, stærðfræði osfrv.). (
 
-ein leið er að nota spring physics 
+if y_position > 460 or y_position < 0:  # top - bottom check
+        y_velocity = 0
+    if x_position > 620 or x_position < 0:  # left - right check
+        x_velocity = 0
 
 #### 4. Leikur (4%)
