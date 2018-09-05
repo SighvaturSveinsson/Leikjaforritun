@@ -7,7 +7,7 @@
 #### 2. Útskýrðuð hvernig hægt er að fá hreyfingu (e. movement) á hlut með notkun e. velocity,
 position ogsfrv. Notaðu kóða, stærðfræði (vigrar og stefnur) og aðrar leiðir til
 útskýringar
-
+þegar spilandi ýtir á einhvern takka hækkar velocity-ið á hlutinum og position breytist svo samkvæmt hraðanum.
 
 acceleration = force / mass
 change in position = velocity * dt
