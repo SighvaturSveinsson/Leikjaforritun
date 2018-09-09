@@ -30,4 +30,5 @@ if y_position > 460 or y_position < 0:  # top - bottom check
     if x_position > 620 or x_position < 0:  # left - right check
         x_velocity = 0
 
-#### 4. Leikur (4%)
+#### 4. Leikur (kóði er á github)
+http://youtu.be/cIiKWiwpYQc?hd=1
