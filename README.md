@@ -25,7 +25,7 @@
     if (player_bottom_y_position > object_bottom_y_position || player_top_y_position < object_top_y_position){
         y_velocity = 0
     }
-    if (player_bottom_x_position > object_bottom_x_position || player_top_x_position < object_top_x_position){
+    if (player_left_x_position > object_left_x_position || player_right_x_position < object_right_x_position){
         x_velocity = 0
     }
 ```
