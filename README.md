@@ -4,8 +4,21 @@
 
 #### 1. Allur leikurinn keyrir á einni lykkju sem er kölluð Game loop, Game loop sér um alla útreikninga eins og position, velocity, collision detection, virkni eða viðbrögð þegar hlutur gerir eitthvað ákveðið og uppfærir og renderar allt contentið.
 
-#### 2. þegar spilandi ýtir á einhvern takka hækkar hraðinn á hlutinum og position breytist svo samkvæmt hraðanum.
-
+#### 2. Þegar spilandi ýtir á einhvern takka hækkar hraðinn á hlutinum og position breytist svo samkvæmt hraðanum.
+```javascript
+    if (cursors.left.isDown){
+        player.setVelocityX(-160);
+    }
+    else if (cursors.right.isDown){
+        player.setVelocityX(160);
+    }
+    else{
+        player.setVelocityX(0);
+    }
+    if (cursors.up.isDown && player.body.touching.down){
+        player.setVelocityY(-330);
+    }
+```
 acceleration = force / mass
 change in position = velocity * dt
 change in velocity = acceleration * dt
