@@ -19,11 +19,6 @@
         player.setVelocityY(-330);
     }
 ```
-acceleration = force / mass
-change in position = velocity * dt
-change in velocity = acceleration * dt
-x_position += x_velocity
-y_position += y_velocity
 
 #### 3. Ef hluti af playerinum snertir annan hlut á skjánum er hraðinn lækkaður í 0 í þá átt sem hluturinn er svo hann getur ekki fært sig inn í hlutin.
 sýnidæmi (kóði, skýringamynd, stærðfræði osfrv.). (
